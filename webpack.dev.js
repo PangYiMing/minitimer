@@ -61,7 +61,8 @@ module.exports = {
       options: {
         key: fs.readFileSync(path.resolve(__dirname, "./ympang.dev-key.pem")),
         cert: fs.readFileSync(path.resolve(__dirname, "./ympang.dev.pem")),
-        passphrase: 'ympang.dev',
+        // passphrase: 'ympang.dev',
+        disableHostCheck: true
       },
     },
     hot: true,

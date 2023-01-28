@@ -4,7 +4,7 @@
   "description": "logicflow_react_demo",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open --config webpack.dev.js  --hot --port 443 --host ympang.dev",
+    "dev": "webpack-dev-server --open --config webpack.dev.js  --hot --port 443 ",
     "build": "webpack --config webpack.prod.js  --mode production --progress",
     "movePC": "node generateVersion.js -v 1.13.0 -t pc",
     "pretty": "prettier --config .prettierrc --write \"src/**/*.{js,ts,tsx,less}\"",

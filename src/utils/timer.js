@@ -41,7 +41,7 @@ export function timer(totalDuration = 10 * 1000, setTime) {
                         var n = new Notification("title", { body: "notification body" }); // 显示通知
                         n.onshow = function () {
                             //   setTimeout(n.close.bind(n), 5000);
-                            alert('aaa')
+                            // alert('aaa')
                         }
                     });
                     // var n = new Notification("Hi!");
